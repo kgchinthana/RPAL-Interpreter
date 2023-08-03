@@ -37,22 +37,14 @@ Executing the Program for C/C++:
  You should create an executable file named rpal20. Provide a makefile to build your
 project. Make sure your program can be run with the following sequence.
 
+
  > tar xvf <submission_file>.tar
  >make
  > ./rpal20 rpal_test_programs/rpal_01 > output.01
  > diff output.01 rpal_test_programs/output01.test
  > ./rpal20 rpal_test_programs/rpal_02 > output.02
  > diff output.02 rpal_test_programs/output02.test
- …
-Executing the Program for java:
-You should create rpal20.java as the main class. Provide a makefile to build you project.
-Make sure your program can be run with the following sequence.
- > tar xvf <submission_file>.tar
- >make
- > java rpal20 rpal_test_programs/rpal_01 > output.01
- > diff output.01 rpal_test_programs/output01.test
- > java rpal20 rpal_test_programs/rpal_02 > output.02
- > diff output.02 rpal_test_programs/output02.test
+
 
 
 RPAL’s Phrase Structure Grammar:
